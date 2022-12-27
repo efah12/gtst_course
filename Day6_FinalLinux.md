@@ -47,14 +47,14 @@
 - /dev/null - Redirects output to nowhere.
 - If you want to ignore output,you can send it to the null device , /dev/null.The null device is a special file that throws away whatever is fed to it.
 - On shell output there are 2 things.
-      - STDERR = 2
-      - STDOUT = 1
+   - STDERR = 2
+   - STDOUT = 1
 - To redirect the errors from a command and result we do 
-      - command 1> filename
+   - command 1> filename
 - To redirect the error-FREE ouput
-      - command 2> filename
+   - command 2> filename
 - So if we redirect our commands output to /dev/null we will get error free result 
-       - command 2> /dev/null
+   - command 2> /dev/null
 ## alias
 - Used to give a name to some bunch of commands.
 - E.g : if i wanted to name ls-la 'rex' so anytime i want to get output of ls-la i just type rex 
