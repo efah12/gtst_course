@@ -146,6 +146,6 @@ pairs.
   - user1 = {'username':’nathan26,’password’:’p@$$word’}
      - username and password = key
 
-     - nathan26 & p@$$word = value
+     - nathan26 & password = value
 - We use keys to retrieve the respective value. But not the other way around. For example,
 ![Alt text](image.ED1TX1.png)
